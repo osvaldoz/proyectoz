@@ -56,13 +56,53 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Guia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Guia.Designer.cs">
+      <DependentUpon>Guia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hotel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hotel.Designer.cs">
+      <DependentUpon>Hotel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Seguros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguros.Designer.cs">
+      <DependentUpon>Seguros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="transicion.cs" />
+    <Compile Include="Transporte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transporte.Designer.cs">
+      <DependentUpon>Transporte.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Viaje.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Viaje.Designer.cs">
+      <DependentUpon>Viaje.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="agenciaViaje.resx">
       <DependentUpon>agenciaViaje.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Guia.resx">
+      <DependentUpon>Guia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hotel.resx">
+      <DependentUpon>Hotel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transporte.resx">
+      <DependentUpon>Transporte.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -73,6 +113,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Viaje.resx">
+      <DependentUpon>Viaje.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -85,6 +128,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Imagenes\dodge caravan.jpg" />
+    <Content Include="Imagenes\dodge-ram-pickup.jpg" />
+    <Content Include="Imagenes\vw-clasico.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

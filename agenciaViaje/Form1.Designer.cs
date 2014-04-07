@@ -28,69 +28,70 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.checkBox5 = new System.Windows.Forms.CheckBox();
+            this.cbHotel = new System.Windows.Forms.CheckBox();
+            this.cbViaje = new System.Windows.Forms.CheckBox();
+            this.cbSeguros = new System.Windows.Forms.CheckBox();
+            this.cbGuia = new System.Windows.Forms.CheckBox();
+            this.cbTransporte = new System.Windows.Forms.CheckBox();
             this.label1 = new System.Windows.Forms.Label();
             this.btnContinuar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // checkBox1
+            // cbHotel
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox1.Location = new System.Drawing.Point(23, 83);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(66, 24);
-            this.checkBox1.TabIndex = 0;
-            this.checkBox1.Text = "Hotel";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.cbHotel.AutoSize = true;
+            this.cbHotel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbHotel.Location = new System.Drawing.Point(23, 83);
+            this.cbHotel.Name = "cbHotel";
+            this.cbHotel.Size = new System.Drawing.Size(66, 24);
+            this.cbHotel.TabIndex = 0;
+            this.cbHotel.Text = "Hotel";
+            this.cbHotel.UseVisualStyleBackColor = true;
             // 
-            // checkBox2
+            // cbViaje
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox2.Location = new System.Drawing.Point(23, 43);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(63, 24);
-            this.checkBox2.TabIndex = 0;
-            this.checkBox2.Text = "Viaje";
-            this.checkBox2.UseVisualStyleBackColor = true;
+            this.cbViaje.AutoSize = true;
+            this.cbViaje.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbViaje.Location = new System.Drawing.Point(23, 43);
+            this.cbViaje.Name = "cbViaje";
+            this.cbViaje.Size = new System.Drawing.Size(63, 24);
+            this.cbViaje.TabIndex = 0;
+            this.cbViaje.Text = "Viaje";
+            this.cbViaje.UseVisualStyleBackColor = true;
+            this.cbViaje.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
             // 
-            // checkBox3
+            // cbSeguros
             // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox3.Location = new System.Drawing.Point(23, 218);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(88, 24);
-            this.checkBox3.TabIndex = 0;
-            this.checkBox3.Text = "Seguros";
-            this.checkBox3.UseVisualStyleBackColor = true;
+            this.cbSeguros.AutoSize = true;
+            this.cbSeguros.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbSeguros.Location = new System.Drawing.Point(23, 218);
+            this.cbSeguros.Name = "cbSeguros";
+            this.cbSeguros.Size = new System.Drawing.Size(88, 24);
+            this.cbSeguros.TabIndex = 0;
+            this.cbSeguros.Text = "Seguros";
+            this.cbSeguros.UseVisualStyleBackColor = true;
             // 
-            // checkBox4
+            // cbGuia
             // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox4.Location = new System.Drawing.Point(23, 173);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(121, 24);
-            this.checkBox4.TabIndex = 0;
-            this.checkBox4.Text = "Guía turística";
-            this.checkBox4.UseVisualStyleBackColor = true;
+            this.cbGuia.AutoSize = true;
+            this.cbGuia.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbGuia.Location = new System.Drawing.Point(23, 173);
+            this.cbGuia.Name = "cbGuia";
+            this.cbGuia.Size = new System.Drawing.Size(121, 24);
+            this.cbGuia.TabIndex = 0;
+            this.cbGuia.Text = "Guía turística";
+            this.cbGuia.UseVisualStyleBackColor = true;
             // 
-            // checkBox5
+            // cbTransporte
             // 
-            this.checkBox5.AutoSize = true;
-            this.checkBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox5.Location = new System.Drawing.Point(23, 132);
-            this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(105, 24);
-            this.checkBox5.TabIndex = 0;
-            this.checkBox5.Text = "Transporte";
-            this.checkBox5.UseVisualStyleBackColor = true;
+            this.cbTransporte.AutoSize = true;
+            this.cbTransporte.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbTransporte.Location = new System.Drawing.Point(23, 132);
+            this.cbTransporte.Name = "cbTransporte";
+            this.cbTransporte.Size = new System.Drawing.Size(105, 24);
+            this.cbTransporte.TabIndex = 0;
+            this.cbTransporte.Text = "Transporte";
+            this.cbTransporte.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
@@ -110,6 +111,7 @@
             this.btnContinuar.TabIndex = 2;
             this.btnContinuar.Text = "Continuar";
             this.btnContinuar.UseVisualStyleBackColor = true;
+            this.btnContinuar.Click += new System.EventHandler(this.btnContinuar_Click);
             // 
             // Form1
             // 
@@ -118,11 +120,11 @@
             this.ClientSize = new System.Drawing.Size(383, 270);
             this.Controls.Add(this.btnContinuar);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.checkBox5);
-            this.Controls.Add(this.checkBox3);
-            this.Controls.Add(this.checkBox4);
-            this.Controls.Add(this.checkBox2);
-            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.cbTransporte);
+            this.Controls.Add(this.cbSeguros);
+            this.Controls.Add(this.cbGuia);
+            this.Controls.Add(this.cbViaje);
+            this.Controls.Add(this.cbHotel);
             this.Name = "Form1";
             this.Text = "Agencia de Viajes";
             this.ResumeLayout(false);
@@ -132,11 +134,11 @@
 
         #endregion
 
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.CheckBox checkBox4;
-        private System.Windows.Forms.CheckBox checkBox5;
+        private System.Windows.Forms.CheckBox cbHotel;
+        private System.Windows.Forms.CheckBox cbViaje;
+        private System.Windows.Forms.CheckBox cbSeguros;
+        private System.Windows.Forms.CheckBox cbGuia;
+        private System.Windows.Forms.CheckBox cbTransporte;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnContinuar;
     }
